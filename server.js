@@ -6,60 +6,60 @@ const port = process.env.PORT || 3000;
 app.get("/users", (req, res) => {
   const users = [
     {
-      avatar: "1 Female.png",
-      name: "John",
+      avatar: "1 Female",
+      name: "Jane",
       phone: "0121234513",
       isActive: true,
-      index: 1
+      index: 8
     },
     {
-      avatar: "1 Male.png",
-      name: "Jane",
+      avatar: "1 Male",
+      name: "John",
       phone: "0856789123",
       isActive: false,
       index: 2
     },
     {
-      avatar: "2 Male.png",
-      name: "Mike",
-      phone: "0812345678",
-      isActive: true,
-      index: 3
-    },
-    {
-      avatar: "2 Female.png",
-      name: "Michelle",
-      phone: "0856789123",
-      isActive: true,
-      index: 4
-    },
-    {
-      avatar: "3 Male.png",
-      name: "Mike",
-      phone: "0812345678",
-      isActive: false,
-      index: 5
-    },
-    {
-      avatar: "3 Female.png",
-      name: "Michelle",
-      phone: "0856789123",
-      isActive: false,
-      index: 6
-    },
-    {
-      avatar: "4 Male.png",
+      avatar: "2 Male",
       name: "Mike",
       phone: "0812345678",
       isActive: true,
       index: 7
     },
     {
-      avatar: "4 Female.png",
+      avatar: "2 Female",
       name: "Michelle",
-      phone: "0856789123",
+      phone: "0856712389",
+      isActive: true,
+      index: 4
+    },
+    {
+      avatar: "3 Male",
+      name: "Andy",
+      phone: "0897654321",
       isActive: false,
-      index: 8
+      index: 5
+    },
+    {
+      avatar: "3 Female",
+      name: "Laura",
+      phone: "0834125678",
+      isActive: false,
+      index: 6
+    },
+    {
+      avatar: "4 Male",
+      name: "Nicholas",
+      phone: "0891827364",
+      isActive: false,
+      index: 3
+    },
+    {
+      avatar: "4 Female",
+      name: "Nadya",
+      phone: "0818273645",
+      isActive: true,
+      index: 1
     },
   ];
 
